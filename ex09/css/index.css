@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    font-family: arial, sans-serif;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.highlight {
+    color: #db3e17;
+    font-weight: bold;
+}
+
+.current a {
+    color: #db3e17;
+}
+
+header {
+    background: #323c47;
+    color: #ffffff;
+    padding-bottom: 70px;
+    border-bottom: #db3e17 solid 2px;
+    margin: 0;
+}
+
+#branding {
+    float: left;
+    padding-left: 8%;
+}
+nav {
+    float: right;
+    padding: 15px 8% 0 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    text-transform: uppercase;
+    padding-right: 30px;
+}
+
+#showcase {
+    height: 350px;
+    color: #ffffff;
+    background-image: url("../img/gigi-logo.png");
+    background-size: cover;
+    background-position-y: -15px;
+    filter: grayscale(1);
+    text-align: center;
+}
+
+#showcase .container {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+}
+
+#showcase h1 {
+    margin: 0;
+    font-size: 320%;
+    padding-top: 9%;
+    padding-bottom: 10px;
+}
+
+#newsletter {
+    height: 70px;
+    background: #323c47;
+}
+
+#newsletter form {
+    display: inline;
+    float: right;
+    padding: 20px 8% 0 0;
+}
+
+form input {
+    border: #2e2e2e solid 1px;
+    height: 30px;
+    width: 200px;
+}
+
+form button {
+    color: white;
+    background-color: #db3e17;
+    border: 0px;
+    width: 90px;
+    height: 30px;
+}
+
+#newsletter h1 {
+    float: left;
+    color: #ffffff;
+    padding-left: 8%;
+}
+
+#boxes img {
+    height: 10%;
+}
+
+#boxes h3 {
+    font-size: 16px;
+}
+
+#boxes .container {
+    margin-left: 15%
+}
+
+.box {
+    display: inline-block;
+    font-size: 14px;
+    text-align: center;
+    width: 25%;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+
+footer {
+    position: fixed;
+    color: white;
+    background-color: #db3e17;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    bottom: 0px;
+}
